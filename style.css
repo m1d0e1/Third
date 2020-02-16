@@ -1,0 +1,165 @@
+/* Global */
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+/* Header */
+
+nav {
+    background-color: #35424a;
+    overflow: hidden;
+    color: #fff;
+    font-size: 16px;
+    border-bottom: 3px #a8491d solid;
+
+}
+nav h2 {
+    display: inline-block;
+    float: left;
+
+}
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding:0;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 5;
+    margin-left: 2em;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+nav span, .active a {
+    color:#a8491d;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    font-weight: bold;
+    color:#ccc
+}
+/* Background*/
+
+.back {
+    background: url("../img/back.jpg") no-repeat 0 -400px;
+    background-size: cover;
+    height: 400px;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}
+.back h1{
+    padding:0;
+    margin:100px auto 10px auto;
+    text-align: center;
+    font-size: 55px;
+}
+.news{
+    overflow: hidden;
+    background-color: #35424a;
+    color: #fff;
+    padding:.6em;
+}
+.news h3 {
+    float: left;
+}
+.news form{
+    float: right;
+    margin-top: 1.2em;
+}
+.news input {
+    height: 2em;
+}
+#bt {
+    height: 2em;
+    background-color: #a8491d;
+    border: 0;
+    color:#fff;
+}
+/* Content */
+.box .container {
+    overflow: hidden;
+    margin-top:20px;
+}
+.log {
+    float: left;
+    width:33.333%;
+    TEXT-ALIGN: CENTER;
+    padding:10px;
+}
+.log img {
+    width: 90px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top:20px;
+    color: #fff;
+    background-color: #a8491d;
+    font-weight: bold;
+}
+/* About Us */
+.us{
+    overflow: hidden;
+}
+aside{
+    padding-top:15px;
+    overflow: hidden;
+}
+.dark{
+    background-color: #35424a;
+    color: #fff;
+    padding: 10px;
+
+}
+article{
+    float: left;
+    width: 65%;
+    padding-right:30px;
+}
+.ser {
+    overflow: hidden;
+}
+.left {
+    width:65%;
+    float: left;
+}
+.left div {
+    background-color: #e6e6e6;
+    padding:10px;
+    margin:0 25px 15px 0;
+    border: 1px solid #ccc;
+}
+.right {
+    background-color: #35424a;
+    overflow: hidden;
+    padding:10px;
+    color: #fff;
+}
+.code label {
+    display: block;
+    margin: 5px;
+}
+.code input:last-of-type{
+    margin-bottom: 15px;
+}
+.code input{
+    height: 1.9em;
+    width: 96%;
+}
