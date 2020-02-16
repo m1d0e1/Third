@@ -57,7 +57,7 @@ nav ul li a:hover{
 /* Background*/
 
 .back {
-    background: url("../img/back.jpg") no-repeat 0 -400px;
+    background: url("back.jpg") no-repeat 0 -400px;
     background-size: cover;
     height: 400px;
     overflow: hidden;
