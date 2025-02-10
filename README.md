@@ -32,5 +32,6 @@ mo-web-design/
 └── assets/             # Recommended directory for images
     ├── logo_html.png
     ├── logo_css.png
-    └── logo_brush.png
+    ├── logo_brush.png
+    └── back.jpg
 ```
